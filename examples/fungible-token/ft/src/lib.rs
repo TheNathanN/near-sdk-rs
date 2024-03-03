@@ -60,12 +60,12 @@ impl Contract {
             total_supply,
             FungibleTokenMetadata {
                 spec: FT_METADATA_SPEC.to_string(),
-                name: "Example NEAR fungible token".to_string(),
-                symbol: "EXAMPLE".to_string(),
+                name: "TST Token".to_string(),
+                symbol: "TST".to_string(),
                 icon: Some(DATA_IMAGE_SVG_NEAR_ICON.to_string()),
                 reference: None,
                 reference_hash: None,
-                decimals: 24,
+                decimals: 6,
             },
         )
     }
